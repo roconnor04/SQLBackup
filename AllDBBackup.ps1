@@ -1,4 +1,5 @@
-﻿$path = "C:\Backups\Location\"
+﻿
+$path = "C:\Backups\Location\"
 $Username = "ExampleUser"
 $Password = ConvertTo-SecureString "ExamplePassword" -AsPlainText -Force
 $mycreds = New-Object System.Management.Automation.PSCredential($Username, $Password)
